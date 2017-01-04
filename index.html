@@ -117,7 +117,7 @@
             function i(){
                 x.clearRect(0,0,w,h)
                 q=[{x:0,y:h*.7+f},{x:0,y:h*.7-f}]
-                while(q[1].x<w+f) d(q[0], q[1])
+                while(q[1].x<w+f) d(q[1], q[0])
             }
             function d(i,j){   
                 x.beginPath()
